@@ -9,3 +9,4 @@ class CharactersLoaded extends CharchtersState {
   final List<Character> charachters;
   CharactersLoaded(this.charachters);
 }
+

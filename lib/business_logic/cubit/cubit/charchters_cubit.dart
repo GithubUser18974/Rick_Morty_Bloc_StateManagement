@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 import 'package:untitled4/data/models/characters.dart';
 
@@ -19,5 +20,16 @@ class CharchtersCubit extends Cubit<CharchtersState> {
     print(myCharacters);
     print('*****************************************');
     return myCharacters;
+  }
+}
+class MYAPPP extends StatelessWidget {
+  const MYAPPP({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+      ),
+    );
   }
 }
